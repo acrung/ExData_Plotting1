@@ -46,7 +46,8 @@ lines(x=power$Time, y=power$submetering3, type="l", col="blue")
 legend("topright",
        lty=c(1,1,1), # gives the legend appropriate symbols (lines)
        lwd=c(2.5,2.5,2.5),col=c("black","blue","red"), # gives the legend lines the correct color and width
-       legend =c("Sub_metering_1","Sub_metering_2","Sub_metering_3")
+       legend =c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),
+       bty = "n"
 )
 
 #bottom right
